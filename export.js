@@ -37,7 +37,7 @@ enabled:false
 },
 
         title: {
-            text: 'EXPORT OF FOREST PRODUCTS'
+            text: 'Industrial roundwood export'
         },
     
       xAxis: {
