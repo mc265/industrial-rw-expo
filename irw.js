@@ -38,7 +38,7 @@ enabled:false
 },
 
         title: {
-            text: 'Industrial Roundwood'
+            text: 'Wood pellets and other agglomerates'
         },
     
       xAxis: {
@@ -57,7 +57,7 @@ enabled:false
         
 
         series: [{
-            name: 'Wood pellets and other agglomerates',
+            name: 'Industrial Roundwood',
             data: formattedData,
             tooltip: {
                 valueDecimals: 0,
