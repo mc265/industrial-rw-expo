@@ -1,3 +1,4 @@
+
 Highcharts.getJSON('https://raw.githubusercontent.com/mc265/export-of-forest-products/main/convertcsv%20(1).json', function (data) {
   
   var formattedData = data.map(function (point) {
@@ -37,19 +38,26 @@ enabled:false
 },
 
         title: {
-            text: 'Industrial roundwood export'
+            text: 'Industrial Roundwood'
         },
     
       xAxis: {
             type: 'date ',
+            title: {
+            enabled: true,
+            text: 'Year'
+        },
+        
+   
          labels: {
               format: '{value:%Y}'
-          
-            }
+         }
          
         },
+        
+
         series: [{
-            name: 'Industrial Roundwood',
+            name: 'Wood pellets and other agglomerates',
             data: formattedData,
             tooltip: {
                 valueDecimals: 0,
