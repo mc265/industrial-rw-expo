@@ -38,7 +38,7 @@ enabled:false
 },
 
         title: {
-            text: 'Wood pellets and other agglomerates'
+            text: 'Industrial Roundwood export'
         },
     
       xAxis: {
