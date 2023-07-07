@@ -41,11 +41,20 @@ enabled:false
             text: 'Industrial Roundwood export'
         },
     
+  
       xAxis: {
             type: 'date ',
             title: {
             enabled: true,
             text: 'Year'
+            }
+        },
+        
+        yAxis: {
+          title:{
+            enabled:true,
+            text: 'cubic meters(m3)'
+          }
         },
         
    
