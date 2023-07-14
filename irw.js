@@ -32,7 +32,7 @@ enabled:false
 },
 
         title: {
-            text: 'Forest Product Exports 1961-2021'
+            text: 'Forest Product Exports 1961-2021',
 	       align: 'left'
         },
         subtitle: {
